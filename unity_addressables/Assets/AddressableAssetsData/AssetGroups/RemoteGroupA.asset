@@ -23,6 +23,26 @@ MonoBehaviour:
     m_SerializedLabels:
     - remote_prefab
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 798097381b715104483bd5d1ba917e90
+    m_Address: Assets/Textures/icon_01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11293027fa3572f47b01e064dd5aa6b4
+    m_Address: Assets/Textures/icon_02.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6134875e2d90916468e2f1dc764da803
+    m_Address: Assets/Textures/icon_03.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c790caad970f15c449ce4cacb0d24203
+    m_Address: Assets/Textures/icon_04.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d86148abc80f1514ea6c20227d7f32b3, type: 2}
   m_SchemaSet:
