@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: 86aa0adda2f7c474ca27bd68f04c4b43
   m_currentHash:
     serializedVersion: 2
-    Hash: 36baf3336393e77059f0e70d221f6ee0
+    Hash: 66559b7342f5ee2bc901b814b3927b3d
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -94,7 +94,8 @@ MonoBehaviour:
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: d780af470b366d14c8fdc9bea7aab236, type: 2}
-  m_InitializationObjects: []
+  m_InitializationObjects:
+  - {fileID: 11400000, guid: acc9c1a3a83593141a746e8570cf9231, type: 2}
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
