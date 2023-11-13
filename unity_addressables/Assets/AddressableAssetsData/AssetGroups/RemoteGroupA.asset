@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RemoteGroupA
+  m_EditorClassIdentifier: 
+  m_GroupName: RemoteGroupA
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 93b5190e6ae9ad5429f27819e924c653
+  m_SerializeEntries:
+  - m_GUID: 6d91d842ce08df64b9d79b9d06aaeb7b
+    m_Address: Assets/Prefabs/Cube.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote_prefab
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d86148abc80f1514ea6c20227d7f32b3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 67b8b23b83fa1ba41a354cef3636e767, type: 2}
+    - {fileID: 11400000, guid: 66a1c189110e8f348bd75d59a755d7fe, type: 2}
