@@ -386,7 +386,8 @@ namespace UnityEditor.AddressableAssets.Settings
         {
             if (string.IsNullOrEmpty(m_Version))
             {
-                var jsonFile = AssetDatabase.LoadAssetAtPath<TextAsset>("Packages/com.unity.addressables/package.json");
+                var jsonFile = AssetDatabase.LoadAssetAtPath<TextAsset>("Assets/com.unity.addressables@1.21.19/package.json");
+                //var jsonFile = AssetDatabase.LoadAssetAtPath<TextAsset>("Packages/com.unity.addressables/package.json");
                 var packageData = JsonUtility.FromJson<PackageData>(jsonFile.text);
                 var split = packageData.version.Split('.');
                 if (split.Length < 2)
