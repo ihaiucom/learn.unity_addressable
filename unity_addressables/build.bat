@@ -1,0 +1,2 @@
+"E:\Program Files\Unity 2021.3.22f1\Editor\Unity.exe"  -quit -batchMode -projectPath . -executeMethod BatchBuild.ChangeSettings -defines=FOO;BAR -buildTarget Win64
+"E:\Program Files\Unity 2021.3.22f1\Editor\Unity.exe"  -quit -batchMode -projectPath . -executeMethod BatchBuild.BuildContentAndPlayer -buildTarget Win64
