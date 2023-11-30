@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: RemoteGroupTextures
+  m_EditorClassIdentifier: 
+  m_GroupName: RemoteGroupTextures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c561cac2324c98246a7154ba30e1171e
+  m_SerializeEntries:
+  - m_GUID: 9517669aa1f97a840a9aae1be5eb7a0e
+    m_Address: Assets/Textures/fengjing01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote_pic
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64a58372f7951a74a8da7a0f5fd3cb5b
+    m_Address: Assets/Prefabs/CubeB.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote_prefab
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a1782ea8a11532d4e951462b701422cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e341abf67d8fd454d82190cd97456dbb, type: 2}
+    - {fileID: 11400000, guid: 8d8448c94e5398c4c941ea1e05ca6e52, type: 2}

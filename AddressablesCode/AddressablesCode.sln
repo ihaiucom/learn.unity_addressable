@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ScriptableBuildPipeli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ScriptableBuildPipeline", "Unity.ScriptableBuildPipeline.csproj", "{C190C9AD-604E-F8E5-E40C-B53ADA11065E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A9297A5F-BF49-8387-7833-057C5F4D8225}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Addressables.Editor", "Unity.Addressables.Editor.csproj", "{CB13D14B-804E-494F-FBC1-A062BC61061D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Addressables.Editor.Tests", "Unity.Addressables.Editor.Tests.csproj", "{FC0FD9FB-3A41-F2FB-F3A7-243CD826709B}"
@@ -51,6 +53,10 @@ Global
 		{C190C9AD-604E-F8E5-E40C-B53ADA11065E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C190C9AD-604E-F8E5-E40C-B53ADA11065E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C190C9AD-604E-F8E5-E40C-B53ADA11065E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9297A5F-BF49-8387-7833-057C5F4D8225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9297A5F-BF49-8387-7833-057C5F4D8225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9297A5F-BF49-8387-7833-057C5F4D8225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9297A5F-BF49-8387-7833-057C5F4D8225}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB13D14B-804E-494F-FBC1-A062BC61061D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB13D14B-804E-494F-FBC1-A062BC61061D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB13D14B-804E-494F-FBC1-A062BC61061D}.Release|Any CPU.ActiveCfg = Release|Any CPU

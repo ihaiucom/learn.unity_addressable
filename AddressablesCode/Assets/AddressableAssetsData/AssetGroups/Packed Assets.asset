@@ -15,11 +15,21 @@ MonoBehaviour:
   m_GroupName: Packed Assets
   m_Data:
     m_SerializedData: []
-  m_GUID: c561cac2324c98246a7154ba30e1171e
-  m_SerializeEntries: []
+  m_GUID: 9a5e6ee9b5c2d1c49bb40359e59acd5e
+  m_SerializeEntries:
+  - m_GUID: e1b50405b66013246aaec1e1b620f3cc
+    m_Address: Assets/Textures/hua_01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11293027fa3572f47b01e064dd5aa6b4
+    m_Address: Assets/Textures/icon_02.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: a1782ea8a11532d4e951462b701422cf, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: e341abf67d8fd454d82190cd97456dbb, type: 2}
-    - {fileID: 11400000, guid: 8d8448c94e5398c4c941ea1e05ca6e52, type: 2}
+    - {fileID: 11400000, guid: 1fa27cd2bb640d449b34da906fab8b36, type: 2}
+    - {fileID: 11400000, guid: 82a90bfe80361854ca4787f8698f648e, type: 2}

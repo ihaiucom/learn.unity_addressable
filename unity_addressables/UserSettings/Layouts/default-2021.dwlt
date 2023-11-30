@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1920
+    x: 0
     y: 43
     width: 1920
     height: 997
   m_ShowMode: 4
   m_Title: Project
-  m_RootView: {fileID: 7}
+  m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -34,17 +34,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AddressableAssetsWindow
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 309
+    x: 673
     y: 0
-    width: 372
-    height: 494
-  m_MinSize: {x: 432, y: 271}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 439
+    height: 410
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -59,119 +59,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1920
-    height: 947
-  m_MinSize: {x: 400, y: 200}
-  m_MaxSize: {x: 32384, y: 16192}
-  vertical: 0
-  controlID: 164
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1302
-    y: 0
-    width: 618
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 309
-    height: 494
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 494
-    width: 1302
-    height: 453
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 21}
-  - {fileID: 14}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 8}
-  - {fileID: 3}
-  - {fileID: 9}
+  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -184,7 +78,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &8
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -206,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &9
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,7 +121,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &10
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -240,18 +134,122 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 11}
-  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 13}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 500, y: 200}
+  m_MaxSize: {x: 40480, y: 16192}
+  vertical: 0
+  controlID: 165
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1302
+    width: 1112
     height: 947
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 166
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  - {fileID: 11}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1112
+    height: 410
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 32384, y: 8096}
+  vertical: 0
+  controlID: 167
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 298
+    height: 410
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: AddressableAssetsWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 298
+    y: 0
+    width: 274
+    height: 410
+  m_MinSize: {x: 432, y: 271}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,23 +259,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
   m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 5}
-  - {fileID: 2}
-  - {fileID: 12}
+  m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 572
     y: 0
-    width: 1302
-    height: 494
-  m_MinSize: {x: 300, y: 100}
-  m_MaxSize: {x: 24288, y: 8096}
-  vertical: 0
-  controlID: 39
+    width: 101
+    height: 410
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,24 +286,927 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 681
-    y: 0
-    width: 621
-    height: 494
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+    x: 0
+    y: 410
+    width: 1112
+    height: 537
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 4
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1112
+    y: 0
+    width: 808
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51f1aa10d814ff4a85c671e5120de6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Addressables Analyze
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 622
+    width: 1111
+    height: 377
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_AnalyzeEditor:
+    m_TreeState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3f776f3e
+      m_LastClickedID: 1047492415
+      m_ExpandedIDs: ecf9838a6796188e53d03f8ff6cd5d93eb8b58a02d4a8da124f85ba351372badfb5de0b00c4490b5ea1354b7738f09bc00e91dbd95cc12c081cc73c183dd37c295508ac73ffadcc8f71a73d5d243b8db837b4be3e59543e47574cfe405b045e6fab588e637bd43e9959877ec7026fcf7422ddffa91285dfe8ac7100078a524031019080619f87a07a99ba212b56b38168d617c16e97e16178e61e61c63c3491f66919422a756d6253fe9002a004a2a2c3fc24e308478d331b21701377186233a3f776f3ee1b90a4fc85d314fbdd203510eeffc53649231564b8e445c02da20668ad0f066bfe6b86ed22daf717427097686d1a179
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 673
+    y: 73
+    width: 437
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 437, y: 368}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -218.5
+    m_HBaseRangeMax: 218.5
+    m_VBaseRangeMin: -184
+    m_VBaseRangeMax: 184
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 437
+      height: 368
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 218.5, y: 184}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -218.5
+      y: -184
+      width: 437
+      height: 368
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 437, y: 389}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 297
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: bedeffff
+      m_LastClickedID: 0
+      m_ExpandedIDs: f4e0ffff60e1ffff2ef1ffff2cfbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 11}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98b4a8982e76bc4d86c10db25cd7193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 430, y: 250}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Addressables Groups
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 298
+    y: 73
+    width: 272
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_GroupEditor:
+    m_TreeState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 7424df26
+      m_LastClickedID: 652158068
+      m_ExpandedIDs: 01c55488f30823cd3f0e33047424df26992bc627
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 10}
+      m_SearchString: 
+    m_Mchs:
+      m_Columns:
+      - width: 25
+        sortedAscending: 0
+        headerContent:
+          m_Text: 
+          m_Image: {fileID: 8209119591668177465, guid: 0000000000000000d000000000000000, type: 0}
+          m_Tooltip: Notifications
+        contextMenuText: 
+        headerTextAlignment: 0
+        sortingArrowAlignment: 1
+        minWidth: 25
+        maxWidth: 25
+        autoResize: 1
+        allowToggleVisibility: 1
+        canSort: 0
+        userData: 0
+      - width: 100
+        sortedAscending: 0
+        headerContent:
+          m_Text: Group Name \ Addressable Name
+          m_Image: {fileID: 0}
+          m_Tooltip: Address used to load asset at runtime
+        contextMenuText: 
+        headerTextAlignment: 0
+        sortingArrowAlignment: 1
+        minWidth: 100
+        maxWidth: 10000
+        autoResize: 1
+        allowToggleVisibility: 1
+        canSort: 1
+        userData: 0
+      - width: 20
+        sortedAscending: 0
+        headerContent:
+          m_Text: 
+          m_Image: {fileID: 3147778976006948682, guid: 0000000000000000d000000000000000, type: 0}
+          m_Tooltip: Asset type
+        contextMenuText: 
+        headerTextAlignment: 0
+        sortingArrowAlignment: 1
+        minWidth: 20
+        maxWidth: 20
+        autoResize: 1
+        allowToggleVisibility: 1
+        canSort: 0
+        userData: 0
+      - width: 100
+        sortedAscending: 0
+        headerContent:
+          m_Text: Path
+          m_Image: {fileID: 0}
+          m_Tooltip: Current Path of asset
+        contextMenuText: 
+        headerTextAlignment: 0
+        sortingArrowAlignment: 1
+        minWidth: 100
+        maxWidth: 10000
+        autoResize: 1
+        allowToggleVisibility: 1
+        canSort: 1
+        userData: 0
+      - width: 20
+        sortedAscending: 0
+        headerContent:
+          m_Text: Labels
+          m_Image: {fileID: 0}
+          m_Tooltip: Assets can have multiple labels
+        contextMenuText: 
+        headerTextAlignment: 0
+        sortingArrowAlignment: 1
+        minWidth: 20
+        maxWidth: 1000
+        autoResize: 1
+        allowToggleVisibility: 1
+        canSort: 1
+        userData: 0
+      m_VisibleColumns: 0000000001000000020000000300000004000000
+      m_SortedColumns: 
+    window: {fileID: 17}
+    m_VerticalSplitterPercent: 0.8
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 572
+    y: 73
+    width: 99
+    height: 389
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -99, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 42, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -99, y: -199}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 0
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0.2378086, y: 0.039320454, z: -0.009635375, w: 0.97047025}
+    speed: 2
+    m_Value: {x: 0.2378081, y: 0.03932037, z: -0.009635354, w: 0.97046816}
+  m_Size:
+    m_Target: 0.8660254
+    speed: 2
+    m_Value: 0.8660254
+  m_Ortho:
+    m_Target: 0
+    speed: 2
+    m_Value: 0
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 483
+    width: 1111
+    height: 516
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Packages/com.unity.addressables
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Packages/com.unity.addressables
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: E:\zengfeng\githubs\learn.unity_addressable\unity_addressables
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 180}
+    m_SelectedIDs: 625d0000
+    m_LastClickedID: 23906
+    m_ExpandedIDs: 00000000585d00005a5d00005c5d00005e5d0000605d0000625d0000665d0000685d0000c45d000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000585d00005a5d00005c5d00005e5d0000605d0000625d0000645d0000665d0000685d0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000ee5e000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 622
+    width: 1111
+    height: 377
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77af4245676cdae4e90c350b07b947d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Addressables Event Viewer
+    m_Image: {fileID: 0}
+    m_Tooltip: Addressables Event Viewer
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 622
+    width: 1111
+    height: 377
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -326,9 +1227,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1920
-    y: 567
-    width: 1301
-    height: 432
+    y: 622
+    width: 1111
+    height: 377
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -522,315 +1423,3201 @@ MonoBehaviour:
     [Local
     Hosting 0] Hosting : ServerData/StandaloneWindows64
 
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Stopping
+
+    [Local
+    Hosting 0] Started. Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:36:47.9322124+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:36:49.2263450+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:36:59.6320911+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:37:04.9505409+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:37:19.8788217+08:00] "ServerData/StandaloneWindows64/a.txt"
+    200 0
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:37:33.3748535+08:00]
+    "" 404 -
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:37:43.4477344+08:00]
+    "ServerData/StandaloneWindows64/a.txt" 200 93
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:40:28.9118213+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:40:29.2450158+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.json" 200 16613
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:40:29.2679397+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:40:29.2789030+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_pic_2a323de12702b064a9a0b943fd26bb8b.bundle"
+    200 354529
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:40:29.2799001+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:41:10.7713615+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:11.0934633+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.json" 200 14800
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:11.1173845+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:41:31.6391643+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:31.9904256+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:41:45.2774301+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:45.6125646+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.json" 200 14804
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:45.6422434+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.40.18.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:41:45.6532069+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:46:24.1911114+08:00]
+    "" 404 -
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:46:24.2638682+08:00]
+    "" 404 -
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:47:36.8028717+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:47:36.8746687+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 16365
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:47:36.8946017+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:47:36.9065625+08:00] "ServerData/StandaloneWindows64/remotegroupicon_assets_all_4bfad8a5f4beb929c6d02709d18350ca.bundle"
+    200 370288
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:47:48.0741563+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:47:48.4342370+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:48:32.1957165+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:48:32.5886944+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json" 200 16563
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:48:32.6166012+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:48:32.6295587+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_all_6c8126b07c5eb8ba8e800096bde69dc1.bundle"
+    200 935110
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:48:47.9654219+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:48:48.3236174+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:49:12.5305358+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:49:12.6262254+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:50:19.3144294+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:50:19.3882525+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json" 200 16765
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:50:19.4091822+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:50:19.4231361+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_all_bd18c047dfaa28ad397a9469cf9e342d.bundle"
+    200 1307065
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:21.4783750+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:21.5506759+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 16757
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:21.5705574+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:21.5874987+08:00] "ServerData/StandaloneWindows64/remotegroupicon_assets_all_79ca50fe98a8afb701aa899c2c76f470.bundle"
+    200 1113469
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:36.2294495+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:52:36.3221340+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:02.9164728+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:02.9972080+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 18309
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:03.0196523+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:03.0345999+08:00] "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.3596431+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.4543275+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.4657313+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.4687216+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.4697185+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:56:21.4707150+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_all_79ca50fe98a8afb701aa899c2c76f470.bundle"
+    200 1113469
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:57:58.2855183+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:57:58.7161619+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json" 200 19680
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:58:02.0769573+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:58:05.5943323+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:58:05.5973216+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:58:05.6033023+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:58:05.6073176+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T20:59:33.9180072+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:59:34.3868142+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T20:59:53.4990965+08:00] "ServerData/StandaloneWindows64/remotegroup_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:59:53.5010902+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:59:53.5020872+08:00]
+    "ServerData/StandaloneWindows64/remotegroup_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T20:59:53.5020872+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:03:59.3483400+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:03:59.7659591+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json" 200 21367
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:03:59.7993550+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.3491759+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.4448569+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.4598069+08:00]
+    "ServerData/StandaloneWindows64/remote2group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.4717667+08:00]
+    "ServerData/StandaloneWindows64/remote2group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.4717667+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:06:38.4717667+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:08:26.3448414+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:08:26.8338900+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:08:26.8508340+08:00] "ServerData/StandaloneWindows64/remote2group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:08:26.8528279+08:00]
+    "ServerData/StandaloneWindows64/remote2group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:08:26.8528279+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:08:26.8538243+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8686. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:09:27.8334985+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:09:28.2258234+08:00] "" 404 -
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8686. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Port
+    8686 is in use, cannot start service!
+
+    [Local Hosting 0] Port 8686 is in
+    use, cannot start service!
+
+    [Local Hosting 0] Port 8686 is in use, cannot
+    start service!
+
+    [Local Hosting 0] Port 8686 is in use, cannot start service!
+
+    [Local
+    Hosting 0] Port 8686 is in use, cannot start service!
+
+    [Local Hosting 0]
+    Port 8686 is in use, cannot start service!
+
+    [Local Hosting 0] Port 8686 is
+    in use, cannot start service!
+
+    [Local Hosting 0] Started. Listening on port
+    8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:15:38.8223713+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:15:39.2250230+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:15:39.2628969+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 21355
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:19:14.7502493+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:19:30.1342404+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:19:30.5477455+08:00]
+    "ServerData/StandaloneWindows64/remote3group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:19:30.5507353+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:19:30.5507353+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:19:55.7888336+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:19:56.1894343+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:19:56.2113616+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19675
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:20:41.3626728+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:20:41.7465305+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:20:41.7475276+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:20:41.7485242+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:20:41.7485242+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:21:31.3632047+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:21:31.7558956+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:21:31.7568922+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:21:31.7578897+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:21:31.7578897+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:22:07.2981253+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:22:21.8205570+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:22:21.8260577+08:00]
+    "ServerData/StandaloneWindows64/remote5group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:22:21.8270441+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:22:21.8320272+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:23:04.6475785+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:23:05.0317209+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:23:05.0596274+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19675
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:23:27.8054909+08:00]
+    "ServerData/StandaloneWindows64/remote8group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:23:27.8194444+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:23:27.8204411+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-08T21:24:12.0334505+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-08T21:24:12.4308645+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-08T21:24:12.4537880+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19675
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T10:28:48.8746380+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T10:29:35.4246901+08:00] "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_89b47dcddeeda808779860e368888ff0.bundle"
+    200 547363
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Port
+    8687 is in use, cannot start service!
+
+    [Local Hosting 0] Started. Listening
+    on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:05:37.0167461+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:37.4161659+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:37.4410831+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:41.4004849+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_5a41ced3738db2a9461d57f0219bcacb.bundle"
+    200 554237
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:41.4044686+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:41.4154318+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:05:41.4154318+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:06:00.4051834+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:14:24.5611787+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:15:06.1884896+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:15:06.5739077+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:15:06.5918478+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:15:15.5184223+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:15:22.9211303+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:15:43.1899994+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:16:06.7469344+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:16:32.1878768+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:16:32.5641286+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:16:32.5830642+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:17:27.5859948+08:00] "ServerData/StandaloneWindows64/remote9group_assets_remote_prefab_9a3982e645c4f9a93117a05c0f746c57.bundle"
+    200 4814
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:17:27.5969585+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:18:10.0782270+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:18:10.4768959+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:18:10.5018125+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:18:39.0954858+08:00] "ServerData/StandaloneWindows64/remote9group_assets_remote_prefab_9a3982e645c4f9a93117a05c0f746c57.bundle"
+    200 4814
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:18:39.1094390+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:18:39.5183694+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:18:39.5467823+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json" 200 19671
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:20:54.1233636+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:20:54.5378280+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:20:54.5677277+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:26:18.2485042+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:26:18.6481845+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:26:18.6820713+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:28:06.1187157+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:28:06.5249929+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:28:06.5548939+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19671
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:28:10.9492202+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:30:22.7451098+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:30:35.8353685+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_5a41ced3738db2a9461d57f0219bcacb.bundle"
+    200 554237
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:30:35.8363644+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:30:35.8373291+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:30:35.8383216+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:33:42.6792224+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:33:42.6961669+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:33:42.7001526+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19876
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:34:14.6243750+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:14.6423146+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:14.6453052+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19876
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:14.6612511+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:34:59.4030909+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:59.4200349+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:59.4230241+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19876
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:34:59.4459474+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:35:34.4230186+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:36:22.5526423+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:36:24.2224753+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_1c8fc758d00ee0b48ca2d10b7537b24b.bundle"
+    200 907636
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:36:24.2274589+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:36:24.2284555+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:37:25.2922933+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:37:33.0075590+08:00] "" 404 -
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:38:03.3610547+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:03.3770049+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:03.3799925+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 19876
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:03.3969485+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:47.8344233+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_1c8fc758d00ee0b48ca2d10b7537b24b.bundle"
+    200 907636
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:47.8364161+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:38:47.8364161+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:39:02.6222278+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:39:22.0906719+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:40:03.3185881+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:40:03.3365286+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:40:03.3395184+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20081
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:40:23.7436816+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:40:23.7646105+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:40:23.7685981+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20081
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:40:23.7865371+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_7d6aeb7f99ef8c988f0427c8db937a12.bundle"
+    200 75463
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:41:21.8254530+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:41:21.8433929+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:41:21.8493737+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20290
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:41:21.8653195+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_34978247e46eecc4d53f805a1afa0018.bundle"
+    200 162621
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:42:45.3837508+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:42:45.3996972+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:42:45.4036861+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20290
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:43:29.8808838+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.8978271+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.9008170+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20290
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.9177604+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_34978247e46eecc4d53f805a1afa0018.bundle"
+    200 162621
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.9289669+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_946ff8229830d73c909895d745fe4767.bundle"
+    200 1021596
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.9322194+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_prefab_9a3982e645c4f9a93117a05c0f746c57.bundle"
+    200 4814
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T11:43:29.9322194+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets__f6cb0aae496b998193d1b70865d76e67.bundle"
+    200 566629
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T11:44:09.0805074+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T12:05:00.2711308+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T14:21:48.5693960+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.5863394+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.5992968+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20290
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6161053+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_34978247e46eecc4d53f805a1afa0018.bundle"
+    200 162621
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6280659+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_946ff8229830d73c909895d745fe4767.bundle"
+    200 1021596
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6390291+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6390291+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_prefab_9a3982e645c4f9a93117a05c0f746c57.bundle"
+    200 4814
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6400261+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets__f6cb0aae496b998193d1b70865d76e67.bundle"
+    200 566629
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:21:48.6440134+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T14:22:16.0878095+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T14:23:28.6010315+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6234636+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6294436+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 20290
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6496867+08:00]
+    "ServerData/StandaloneWindows64/huaduogroup_assets_all_34978247e46eecc4d53f805a1afa0018.bundle"
+    200 162621
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6510990+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_picremote_prefab_e838a4a98722c47a2ff2fe83c09d9305.bundle"
+    200 340160
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6520938+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_prefab_9a3982e645c4f9a93117a05c0f746c57.bundle"
+    200 4814
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6520938+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets__f6cb0aae496b998193d1b70865d76e67.bundle"
+    200 566629
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6520938+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_946ff8229830d73c909895d745fe4767.bundle"
+    200 1021596
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T14:23:28.6520938+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_a6337d174445925b21b6e47163659e85.bundle"
+    200 547578
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T14:24:54.8244181+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T17:07:13.4048877+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T19:35:03.6001901+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T19:35:03.6242100+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-09T19:35:03.6351722+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 16564
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T19:35:03.6630793+08:00]
+    "ServerData/StandaloneWindows64/remote9group_scenes__920d6bb65cabc5ffc629dff5db27b188.bundle"
+    200 133944
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-09T19:35:03.6650729+08:00]
+    "ServerData/StandaloneWindows64/remotegroupicon_assets_remote_pic_ed389380b1e1279636af9957361438e9.bundle"
+    200 3005670
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T19:35:14.5540514+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T19:36:05.2877328+08:00] "" 404 -
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-09T19:36:31.1794024+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-10T10:08:19.3235978+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-10T10:08:19.3594785+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-10T10:08:19.3714389+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 16702
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-10T10:08:19.4053251+08:00]
+    "ServerData/StandaloneWindows64/remote9group_assets_remote_pic_78d4a6cb7d0d4306087ada172c8e724b.bundle"
+    200 2765090
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-10T17:52:09.8551808+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-10T17:52:09.8860770+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-10T17:52:09.9119914+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 11016
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-10T17:52:09.9349367+08:00]
+    "ServerData/StandaloneWindows64/groupa_assets_all_2c9761b2446291a5c5d876b4d129ab54.bundle"
+    200 360227
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T10:05:56.9149840+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:09:31.6714929+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:10:38.5053240+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:10:49.9655144+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:10:49.9880088+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:10:49.9979762+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.json"
+    200 13115
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:11:03.0692025+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:11:27.4629406+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:11:38.3892600+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:18:08.7363896+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:18:44.6885650+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.08.12.47.30.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:20:45.5998922+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:20:45.6324781+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:20:45.6454348+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.json"
+    200 13139
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:22:36.6454269+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:22:36.6663565+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:22:36.6713400+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.json"
+    200 15810
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:22:36.6952604+08:00]
+    "ServerData/StandaloneWindows64/groupb_assets_all_34785c67a7fcaac57c1d69d067324279.bundle"
+    200 1673063
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:23:23.3115882+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:24:00.5591260+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:24:26.9989944+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:24:47.3104256+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:25:21.6947308+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:25:21.7206442+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:25:21.7331260+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.json"
+    200 15810
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:26:20.8036872+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:27:55.1447665+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:28:09.5729135+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:28:09.5958372+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:28:09.6107869+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.20.34.json"
+    200 15392
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:28:09.6387267+08:00]
+    "ServerData/StandaloneWindows64/groupa_assets_all_4dc041f16a05745e8da6a267a695d840.bundle"
+    200 1452204
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:28:29.7262998+08:00] "" 404 -
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:28:43.8294096+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.28.34.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T16:28:43.8483451+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.08.28.34.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T16:28:43.8603065+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.28.34.json"
+    200 15392
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:28:55.3996377+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.08.28.34.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:58:16.9499421+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:58:22.0594623+08:00] "ServerData/StandaloneWindows64/a.txt"
+    200 93
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T16:59:52.9609465+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:00:06.6620401+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:00:31.9418322+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.hash" 200 32
+
+    [Local Hosting
+    0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0]
+    Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:01:02.1633951+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:01:02.1922986+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.json" 200 13492
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-13T17:01:02.7329151+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:01:05.4255957+08:00]
+    "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_71ef06770976bdd1f834bcf18cf3888c.bundle"
+    200 3119246
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:01:28.5773892+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:01:28.6112757+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.json" 200 14865
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-13T17:01:29.2545748+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:02:05.2371326+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:02:05.8341045+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.hash" 200 32
+
+    [Local Hosting
+    0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0]
+    Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:02:12.7832124+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:02:13.3918965+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.hash" 200 32
+
+    [Local Hosting
+    0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0]
+    Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:02:26.9728469+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:02:26.9997564+08:00]
+    "ServerData/StandaloneWindows64/catalog_0.1.json" 200 16204
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-13T17:02:27.5638730+08:00] "ServerData/StandaloneWindows64/catalog_0.1.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:02:49.6832089+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:02:49.7180924+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16204
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:02:50.2817439+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:03:31.2217239+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:03:31.8312184+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:03:57.1370291+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:03:57.7281758+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:00.2449850+08:00] "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:00.2499679+08:00]
+    "ServerData/StandaloneWindows64/remotegroupa_assets_remote_pic_3cde917dac165ed4233228bc0ab8b3d8.bundle"
+    200 1154392
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:04:06.5329037+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:07.1377844+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:04:19.8394387+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:19.8673453+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16188
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:20.4502163+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:04:27.7948691+08:00]
+    "ServerData/StandaloneWindows64/remotegroupa_assets_remote_pic_6da16ef9993f4450a51e96bd6eefb81b.bundle"
+    200 875018
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:05:12.6081576+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:05:12.6440345+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:05:13.1868470+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:05:34.2708198+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:05:34.8554932+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:07:11.2461828+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:07:11.8390843+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:07:20.5456287+08:00] "" 404 -
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:07:21.1406152+08:00] "" 404 -
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:07:30.6392717+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:07:31.2434503+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:07:46.6278379+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:07:46.6557443+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:07:47.2218590+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:08:24.8758839+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:08:25.4679199+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:08:34.3062107+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:08:34.3331202+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:08:34.9184903+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:09:30.5976500+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:09:30.6245606+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:09:30.6544611+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:11:59.2444030+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:11:59.2684543+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:11:59.2853967+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:12:36.8185181+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:12:36.8494149+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:14:28.3352731+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:14:28.3601889+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:14:28.3861177+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:14:39.7423269+08:00]
+    "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:15:57.9104433+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:15:58.5403681+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:25:16.2346166+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:25:16.8640496+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T17:25:22.7760387+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T17:25:23.3998960+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T17:25:24.0534388+08:00] "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:18:51.6398489+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:18:52.2126112+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:20:18.0977217+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:20:18.6223955+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:20:33.7234804+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:20:34.2374361+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash" 200 32
+
+    [Local
+    Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting
+    0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:20:47.9868799+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:20:48.0088059+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 14795
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T19:20:48.5141125+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:21:41.0946830+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:21:41.1235887+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T19:21:41.6962113+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:23:08.3960101+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:23:08.4259111+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T19:23:08.9982818+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:23:13.6446120+08:00]
+    "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:23:31.2264135+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:23:31.2553180+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T19:23:31.8030062+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T19:24:36.3480779+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:24:36.3680121+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T19:24:36.8245230+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.09.02.40.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T19:24:39.5832352+08:00]
+    "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T20:08:09.8900510+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.12.08.02.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T20:08:09.9109774+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.12.08.02.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T20:08:10.4320139+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.12.08.02.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-13T21:06:40.1904350+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.13.06.28.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-13T21:06:40.2716738+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.13.06.28.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-13T21:06:40.3016330+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.13.06.28.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] Started. Listening
+    on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:31:36.4743328+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:31:36.5055156+08:00]
+    "ServerData/Android/catalog_2023.11.14.03.32.49.json" 200 16598
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:31:37.1640630+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:31:43.0684038+08:00]
+    "ServerData/Android/remotegroupb_assets_remote_pic_c22598d852e25d7dc7042ced4c11c942.bundle"
+    200 1684222
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:32:38.3563584+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:32:38.3836115+08:00]
+    "ServerData/Android/catalog_2023.11.14.03.32.49.json" 200 16598
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:32:38.9123767+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:34:07.0188552+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:34:07.0461096+08:00]
+    "ServerData/Android/catalog_2023.11.14.03.32.49.json" 200 16598
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:34:07.6015723+08:00] "ServerData/Android/catalog_2023.11.14.03.32.49.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:34:12.3680483+08:00]
+    "ServerData/Android/remotegroupb_assets_remote_pic_c22598d852e25d7dc7042ced4c11c942.bundle"
+    200 1684222
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:34:44.3759737+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:34:44.4051744+08:00]
+    "ServerData/Android/catalog_2023.11.14.07.34.33.json" 200 17978
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:34:45.0447079+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:34:46.7988166+08:00]
+    "ServerData/Android/remotegroupa_assets_remote_pic_71ce3bf0fe22c477cff5d46f4fe61af2.bundle"
+    200 417247
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:34:46.7997898+08:00]
+    "ServerData/Android/remotegroupb_assets_remote_pic_22df9707c4f9905193ad756d753f2f3f.bundle"
+    200 1268231
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2
+    folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:35:56.9788129+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:35:57.0007322+08:00]
+    "ServerData/Android/catalog_2023.11.14.07.34.33.json" 200 17978
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:35:57.0270130+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Android/Android
+
+    [Local
+    Hosting 0] Hosting : ServerData/Android
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T15:36:47.5952681+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T15:36:47.6234961+08:00]
+    "ServerData/Android/catalog_2023.11.14.07.34.33.json" 200 17978
+
+    [Local Hosting
+    0] 192.168.6.126 - - [2023-11-14T15:37:01.0547985+08:00] "ServerData/Android/catalog_2023.11.14.07.34.33.hash"
+    200 32
+
+    [Local Hosting 0] Started. Listening on port 8687. Hosting 2 folders.
+
+    [Local
+    Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] Started.
+    Listening on port 8687. Hosting 2 folders.
+
+    [Local Hosting 0] Hosting : Library/com.unity.addressables/aa/Windows/StandaloneWindows64
+
+    [Local
+    Hosting 0] Hosting : ServerData/StandaloneWindows64
+
+    [Local Hosting 0] 192.168.6.126
+    - - [2023-11-14T17:23:48.5684763+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.13.08.08.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T17:23:48.5986499+08:00]
+    "ServerData/StandaloneWindows64/catalog_2023.11.13.13.08.08.json" 200 16616
+
+    [Local
+    Hosting 0] 192.168.6.126 - - [2023-11-14T17:23:49.1735676+08:00] "ServerData/StandaloneWindows64/catalog_2023.11.13.13.08.08.hash"
+    200 32
+
+    [Local Hosting 0] 192.168.6.126 - - [2023-11-14T17:24:01.5947196+08:00]
+    "ServerData/StandaloneWindows64/remotegroupb_assets_remote_pic_9389ee262df92898d47cfd09f7ae0714.bundle"
+    200 1522464
+
 '
-  m_LogScrollPos: {x: 0, y: 858}
-  m_ServicesScrollPos: {x: 0, y: 3}
+  m_LogScrollPos: {x: 0, y: 16222}
+  m_ServicesScrollPos: {x: 0, y: 55}
   m_VerticalSplitterRatio: 0.67
   m_Settings: {fileID: 11400000, guid: d86148abc80f1514ea6c20227d7f32b3, type: 2}
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77af4245676cdae4e90c350b07b947d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Addressables Event Viewer
-    m_Image: {fileID: 0}
-    m_Tooltip: Addressables Event Viewer
-  m_Pos:
-    serializedVersion: 2
-    x: 1920
-    y: 567
-    width: 1301
-    height: 432
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e98b4a8982e76bc4d86c10db25cd7193, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 430, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Addressables Groups
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2229
-    y: 73
-    width: 370
-    height: 473
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_GroupEditor:
-    m_TreeState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ffffffff79e4c044cdc87b59
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 2}
-      m_SearchString: 
-    m_Mchs:
-      m_Columns:
-      - width: 25
-        sortedAscending: 0
-        headerContent:
-          m_Text: 
-          m_Image: {fileID: 8209119591668177465, guid: 0000000000000000d000000000000000, type: 0}
-          m_Tooltip: Notifications
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 25
-        maxWidth: 25
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 0
-        userData: 0
-      - width: 260
-        sortedAscending: 0
-        headerContent:
-          m_Text: Group Name \ Addressable Name
-          m_Image: {fileID: 0}
-          m_Tooltip: Address used to load asset at runtime
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 100
-        maxWidth: 10000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      - width: 20
-        sortedAscending: 0
-        headerContent:
-          m_Text: 
-          m_Image: {fileID: 3147778976006948682, guid: 0000000000000000d000000000000000, type: 0}
-          m_Tooltip: Asset type
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 20
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 0
-        userData: 0
-      - width: 150
-        sortedAscending: 0
-        headerContent:
-          m_Text: Path
-          m_Image: {fileID: 0}
-          m_Tooltip: Current Path of asset
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 100
-        maxWidth: 10000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      - width: 160
-        sortedAscending: 0
-        headerContent:
-          m_Text: Labels
-          m_Image: {fileID: 0}
-          m_Tooltip: Assets can have multiple labels
-        contextMenuText: 
-        headerTextAlignment: 0
-        sortingArrowAlignment: 1
-        minWidth: 20
-        maxWidth: 1000
-        autoResize: 1
-        allowToggleVisibility: 1
-        canSort: 1
-        userData: 0
-      m_VisibleColumns: 0000000001000000020000000300000004000000
-      m_SortedColumns: 
-    window: {fileID: 15}
-    m_VerticalSplitterPercent: 0.8
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1920
-    y: 567
-    width: 1301
-    height: 432
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets/AddressableAssetsData
-    m_Globs: []
-    m_OriginalText: 
-  m_ViewMode: 1
-  m_StartGridSize: 16
-  m_LastFolders:
-  - Assets/AddressableAssetsData/Windows
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: E:\zengfeng\githubs\learn.unity_addressable\unity_addressables
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 085d0000
-    m_LastClickedID: 23816
-    m_ExpandedIDs: 00000000e25c0000e45c0000e65c0000e85c0000ea5c0000ec5c0000ee5c0000085d000000ca9a3bffffff7f
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 6}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e25c0000e45c0000e65c0000e85c0000ea5c0000ec5c0000ee5c0000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 6}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 16
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
---- !u!114 &17
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -850,9 +4637,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3222
+    x: 1112
     y: 73
-    width: 617
+    width: 807
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -872,522 +4659,3 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1920
-    y: 73
-    width: 308
-    height: 473
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 94f9ffff32fbffff
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2601
-    y: 73
-    width: 619
-    height: 415
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData:
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
-      snapCorner: 3
-      id: Tool Settings
-      index: 0
-      layout: 1
-    - dockPosition: 0
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: -141, y: 149}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-grid-and-snap-toolbar
-      index: 1
-      layout: 1
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-scene-view-toolbar
-      index: 0
-      layout: 1
-    - dockPosition: 1
-      containerId: overlay-toolbar__top
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
-      id: unity-search-toolbar
-      index: 1
-      layout: 1
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 25}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-transform-toolbar
-      index: 0
-      layout: 2
-    - dockPosition: 0
-      containerId: overlay-container--left
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 197}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: unity-component-tools
-      index: 1
-      layout: 2
-    - dockPosition: 0
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 1
-      snapOffset: {x: -111, y: -199}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
-      id: Orientation
-      index: 0
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Light Settings
-      index: 0
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Camera
-      index: 1
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Constraints
-      index: 2
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Cloth Collisions
-      index: 3
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Navmesh Display
-      index: 4
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Agent Display
-      index: 5
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Obstacle Display
-      index: 6
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Occlusion Culling
-      index: 7
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Physics Debugger
-      index: 8
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Scene Visibility
-      index: 9
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Particles
-      index: 10
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap
-      index: 11
-      layout: 4
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: Scene View/Tilemap Palette Helper
-      index: 12
-      layout: 4
-    m_OverlaysVisible: 1
-  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
-  m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 1
-  m_SceneLighting: 1
-  m_2DMode: 0
-  m_isRotationLocked: 0
-  m_PlayAudio: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 60, y: 644, z: 0}
-    speed: 2
-    m_Value: {x: 60, y: 644, z: 0}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
-  m_SceneViewState:
-    m_AlwaysRefresh: 0
-    showFog: 1
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-    showVisualEffectGraphs: 1
-    m_FxEnabled: 1
-  m_Grid:
-    xGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
-    yGrid:
-      m_Fade:
-        m_Target: 1
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
-    m_ShowGrid: 1
-    m_GridAxis: 1
-    m_gridOpacity: 0.5
-  m_Rotation:
-    m_Target: {x: -0.008724232, y: 0.97005385, z: -0.0352377, w: -0.24016514}
-    speed: 2
-    m_Value: {x: -0.008724226, y: 0.97005314, z: -0.035237674, w: -0.24016497}
-  m_Size:
-    m_Target: 315.81955
-    speed: 2
-    m_Value: 315.81955
-  m_Ortho:
-    m_Target: 0
-    speed: 2
-    m_Value: 0
-  m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.001
-    m_SpeedMax: 2
-    m_EasingEnabled: 1
-    m_EasingDuration: 0.4
-    m_AccelerationEnabled: 1
-    m_FieldOfViewHorizontalOrVertical: 60
-    m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
-    m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_SceneVisActive: 1
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2601
-    y: 73
-    width: 619
-    height: 473
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 619, y: 452}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -309.5
-    m_HBaseRangeMax: 309.5
-    m_VBaseRangeMin: -226
-    m_VBaseRangeMax: 226
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 619
-      height: 452
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 309.5, y: 226}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -309.5
-      y: -226
-      width: 619
-      height: 452
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 619, y: 473}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1920
-    y: 567
-    width: 1301
-    height: 432
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1

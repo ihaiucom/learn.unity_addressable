@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: ZF_CacheInitializationSettings
   m_EditorClassIdentifier: 
   m_Data:
-    m_CompressionEnabled: 0
-    m_CacheDirectoryOverride: '{Application.persistentDataPath}/zf'
+    m_CompressionEnabled: 1
+    m_CacheDirectoryOverride: E:\zengfeng\githubs\learn.unity_addressable\_cache
     m_ExpirationDelay: 12960000
     m_LimitCacheSize: 0
-    m_MaximumCacheSize: 9223372036854775807
+    m_MaximumCacheSize: 1073741824

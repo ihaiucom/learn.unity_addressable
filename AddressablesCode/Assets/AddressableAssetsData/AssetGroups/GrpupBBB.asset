@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GrpupBBB
+  m_EditorClassIdentifier: 
+  m_GroupName: GrpupBBB
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7a3e1b287a77fa640b708912cace244a
+  m_SerializeEntries:
+  - m_GUID: 0c666e8b7bac6984ba95b4914c4f895c
+    m_Address: Assets/Textures/fengjing02.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote_pic
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: a1782ea8a11532d4e951462b701422cf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1668f5dd7731e88409bbaba4ad6e488e, type: 2}
+    - {fileID: 11400000, guid: 4cc3e888274a15d4082714cd1dec9b0f, type: 2}

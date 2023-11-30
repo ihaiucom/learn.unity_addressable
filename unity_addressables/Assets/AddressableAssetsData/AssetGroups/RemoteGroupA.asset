@@ -43,6 +43,12 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9517669aa1f97a840a9aae1be5eb7a0e
+    m_Address: Assets/Textures/fengjing01.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - remote_pic
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: d86148abc80f1514ea6c20227d7f32b3, type: 2}
   m_SchemaSet:
