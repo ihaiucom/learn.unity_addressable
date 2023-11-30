@@ -13,12 +13,16 @@ using UnityEngine.ResourceManagement.Util;
 namespace UnityEngine.AddressableAssets.ResourceProviders
 {
     /// <summary>
+    /// 内容目录的提供程序。此提供程序使用哈希文件来确定是否需要下载目录的新版本。
     /// Provider for content catalogs.  This provider makes use of a hash file to determine if a newer version of the catalog needs to be downloaded.
     /// </summary>
     [DisplayName("Content Catalog Provider")]
     public class ContentCatalogProvider : ResourceProviderBase
     {
         /// <summary>
+        /// 用于指定目录依赖项中的哪个条目应包含每个哈希项的选项。
+        /// Remote应该指向服务器上的哈希。缓存应指向
+        /// 远程数据的本地缓存副本。
         /// Options for specifying which entry in the catalog dependencies should hold each hash item.
         ///  The Remote should point to the hash on the server.  The Cache should point to the
         ///  local cache copy of the remote data.
@@ -26,11 +30,13 @@ namespace UnityEngine.AddressableAssets.ResourceProviders
         public enum DependencyHashIndex
         {
             /// <summary>
+            /// 用于表示依赖项列表中远程项的索引。
             /// Use to represent the index of the remote entry in the dependencies list.
             /// </summary>
             Remote = 0,
 
             /// <summary>
+            /// 用于表示依赖项列表中缓存项的索引。
             /// Use to represent the index of the cache entry in the dependencies list.
             /// </summary>
             Cache,
@@ -42,11 +48,13 @@ namespace UnityEngine.AddressableAssets.ResourceProviders
         }
 
         /// <summary>
+        /// 用于指示是否应禁用启动时更新目录。
         /// Use to indicate if the updating the catalog on startup should be disabled.
         /// </summary>
         public bool DisableCatalogUpdateOnStart = false;
 
         /// <summary>
+        /// 用于指示本地目录是否在捆绑包中。
         /// Use to indicate if the local catalog is in a bundle.
         /// </summary>
         public bool IsLocalCatalogInBundle = false;
@@ -374,7 +382,7 @@ namespace UnityEngine.AddressableAssets.ResourceProviders
                     if (string.IsNullOrEmpty(remoteHash) || disableCatalogUpdateOnStart) //offline
                     {
 #if ENABLE_CACHING
-                        if (!string.IsNullOrEmpty(m_LocalHashValue) && !m_Retried && !string.IsNullOrEmpty(Application.persistentDataPath)) //cache exists and not forcing a retry state
+                        if (!string.IsNullOrEmpty(m_LocalHashValue) && !m_Retried && !string.IsNullOrEmpty(Application.persistentDataPath)) //cache exists and not forcing a retry state 缓存存在且未强制进入重试状态
                         {
                             idToLoad = GetTransformedInternalId(location.Dependencies[(int)DependencyHashIndex.Cache]).Replace(".hash", kCatalogExt);
                         }

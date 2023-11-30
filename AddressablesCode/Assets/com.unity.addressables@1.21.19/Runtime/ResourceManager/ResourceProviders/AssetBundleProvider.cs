@@ -27,16 +27,19 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
     }
 
     /// <summary>
+    /// 用于指示如何在第一次加载请求时从AssetBundle加载资产。
     /// Used to indication how Assets are loaded from the AssetBundle on the first load request.
     /// </summary>
     public enum AssetLoadMode
     {
         /// <summary>
+        /// 仅加载请求的资产和依赖项
         /// Only load the requested Asset and Dependencies
         /// </summary>
         RequestedAssetAndDependencies = 0,
 
         /// <summary>
+        /// 加载AssetBundle中的所有资产
         /// Load all assets inside the AssetBundle
         /// </summary>
         AllPackedAssetsAndDependencies,
@@ -55,6 +58,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
     }
 
     /// <summary>
+    /// 包含AssetBundleProvider要使用的缓存信息
     /// Contains cache information to be used by the AssetBundleProvider
     /// </summary>
     [Serializable]
@@ -104,6 +108,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         bool m_ChunkedTransfer;
 
         /// <summary>
+        /// 分块传输
         /// Indicates whether the UnityWebRequest system should employ the HTTP/1.1 chunked-transfer encoding method.
         /// </summary>
         public bool ChunkedTransfer
@@ -117,6 +122,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         int m_RedirectLimit = -1;
 
         /// <summary>
+        /// 指示此UnityWebRequest在因“超过重定向限制”系统错误而停止之前将遵循的重定向次数。
         /// Indicates the number of redirects which this UnityWebRequest will follow before halting with a “Redirect Limit Exceeded” system error.
         /// </summary>
         public int RedirectLimit
@@ -130,6 +136,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         int m_RetryCount;
 
         /// <summary>
+        /// 指示将重试请求的次数。
         /// Indicates the number of times the request will be retried.
         /// </summary>
         public int RetryCount
@@ -182,6 +189,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         bool m_UseCrcForCachedBundles;
 
         /// <summary>
+        /// 如果为false，则从缓存加载捆绑包时将不使用CRC。
         /// If false, the CRC will not be used when loading bundles from the cache.
         /// </summary>
         public bool UseCrcForCachedBundle
@@ -194,6 +202,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         bool m_UseUWRForLocalBundles;
 
         /// <summary>
+        /// 如果为true，则即使捆绑包存储在本地，也将使用UnityWebRequest。
         /// If true, UnityWebRequest will be used even if the bundle is stored locally.
         /// </summary>
         public bool UseUnityWebRequestForLocalBundles
@@ -206,6 +215,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         bool m_ClearOtherCachedVersionsWhenLoaded;
 
         /// <summary>
+        /// 如果为false，则从缓存加载捆绑包时将不使用CRC。
         /// If false, the CRC will not be used when loading bundles from the cache.
         /// </summary>
         public bool ClearOtherCachedVersionsWhenLoaded
@@ -215,6 +225,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         }
 
         /// <summary>
+        /// 计算此捆绑包需要下载的数据量。
         /// Computes the amount of data needed to be downloaded for this bundle.
         /// </summary>
         /// <param name="location">The location of the bundle.</param>
@@ -239,11 +250,13 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
     }
 
     /// <summary>
+    /// 提供从本地或远程位置加载AssetBundle的方法。
     /// Provides methods for loading an AssetBundle from a local or remote location.
     /// </summary>
     public class AssetBundleResource : IAssetBundleResource, IUpdateReceiver
     {
         /// <summary>
+        /// 可从何处加载AssetBundle的选项。
         /// Options for where an AssetBundle can be loaded from.
         /// </summary>
         public enum LoadType

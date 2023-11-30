@@ -165,11 +165,13 @@ namespace UnityEngine.AddressableAssets
             get { return "aa"; }
         }
 
+        // "Library/com.unity.addressables/aa/Windows"
         public string BuildPath
         {
             get { return Addressables.LibraryPath + StreamingAssetsSubFolder + "/" + PlatformMappingService.GetPlatformPathSubFolder(); }
         }
 
+        // "Assets/StreamingAssets/aa"
         public string PlayerBuildDataPath
         {
             get { return Application.streamingAssetsPath + "/" + StreamingAssetsSubFolder; }
@@ -376,7 +378,7 @@ namespace UnityEngine.AddressableAssets
             hasStartedInitialization = true;
             if (m_InitializationOperation.IsValid())
                 return m_InitializationOperation;
-            //these need to be referenced in order to prevent stripping on IL2CPP platforms.
+            //these need to be referenced in order to prevent stripping on IL2CPP platforms. 需要参考这些，以防止在IL2CPP平台上剥离。
             GC.KeepAlive(Application.streamingAssetsPath);
 #if !UNITY_SWITCH
             GC.KeepAlive(Application.persistentDataPath);

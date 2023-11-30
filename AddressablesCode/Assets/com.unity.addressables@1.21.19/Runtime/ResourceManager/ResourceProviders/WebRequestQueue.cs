@@ -60,6 +60,7 @@ namespace UnityEngine.ResourceManagement
 
 
     /// <summary>
+    /// 表示web请求的队列。已完成的请求将从队列中删除。
     /// Represents a queue of web requests. Completed requests are removed from the queue.
     /// </summary>
     public static class WebRequestQueue
@@ -96,6 +97,7 @@ namespace UnityEngine.ResourceManagement
         }
 
         /// <summary>
+        /// 同步等待完成特定的web请求。
         /// Synchronously waits for a particular web request to be completed.
         /// </summary>
         /// <param name="request">The web request.</param>

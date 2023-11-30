@@ -135,6 +135,7 @@ namespace UnityEngine.ResourceManagement.Util
         public string Url { get; }
 
         /// <summary>
+        /// 根据错误确定是否可以再次发送web请求。
         /// Determines if the web request can be sent again based on its error. 
         /// </summary>
         /// <returns>Returns true if the web request can be sent again.</returns>

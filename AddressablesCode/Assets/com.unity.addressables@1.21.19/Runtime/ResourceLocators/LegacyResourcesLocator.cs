@@ -6,6 +6,7 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 namespace UnityEngine.AddressableAssets.ResourceLocators
 {
     /// <summary>
+    /// 简单定位器，充当从资源目录加载的资产的传递。
     /// Simple locator that acts as a passthrough for assets loaded from resources directories.
     /// </summary>
     public class LegacyResourcesLocator : IResourceLocator

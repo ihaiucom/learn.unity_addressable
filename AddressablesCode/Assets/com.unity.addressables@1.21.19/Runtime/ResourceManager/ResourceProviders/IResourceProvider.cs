@@ -8,22 +8,26 @@ using UnityEngine.SceneManagement;
 namespace UnityEngine.ResourceManagement.ResourceProviders
 {
     /// <summary>
+    /// 资源提供程序行为的选项。
     /// Options for resource provider behavior.
     /// </summary>
     public enum ProviderBehaviourFlags
     {
         /// <summary>
+        /// 指示提供程序没有额外指定的行为。
         /// Indicates that the provider does not have extra specified behavior.
         /// </summary>
         None = 0,
 
         /// <summary>
+        /// 指示即使存在失败的依赖关系，提供程序仍将满足请求。
         /// Indicates that the provider will still fulfill requests even with failed dependencies.
         /// </summary>
         CanProvideWithFailedDependencies = 1
     }
 
     /// <summary>
+    /// 提供程序满足请求所需的所有数据的容器。
     /// Container for all data need by providers to fulfill requests.
     /// </summary>
     public struct ProvideHandle
@@ -149,17 +153,20 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
 
 
     /// <summary>
+    /// 资源提供程序处理对象的加载（提供）和卸载（释放）
     /// Resoure Providers handle loading (Provide) and unloading (Release) of objects
     /// </summary>
     public interface IResourceProvider
     {
         /// <summary>
+        /// 此提供程序的唯一标识符，由资源位置用来查找合适的提供程序
         /// Unique identifier for this provider, used by Resource Locations to find a suitable Provider
         /// </summary>
         /// <value>The provider identifier.</value>
         string ProviderId { get; }
 
         /// <summary>
+        /// 此提供程序可以提供的默认对象类型。
         /// The default type of object that this provider can provide.
         /// </summary>
         /// <param name="location">The location that can be used to determine the type.</param>
@@ -167,6 +174,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         Type GetDefaultType(IResourceLocation location);
 
         /// <summary>
+        /// 确定此提供程序是否可以从指定位置提供指定的对象类型。
         /// Determine if this provider can provide the specified object type from the specified location.
         /// </summary>
         /// <param name="type">The type of object.</param>
@@ -175,12 +183,14 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         bool CanProvide(Type type, IResourceLocation location);
 
         /// <summary>
+        /// 告诉provide它需要提供资源，并通过传递的provideHandle报告结果。调用此函数时，所有依赖项都已完成，并且可以通过provideHandle使用。
         /// Tells the provide that it needs to provide a resource and report the results through the passed provideHandle. When this is called, all dependencies have completed and are available through the provideHandle.
         /// </summary>
         /// <param name="provideHandle">A handle used to update the operation.</param>
         void Provide(ProvideHandle provideHandle);
 
         /// <summary>
+        /// 释放和/或卸载给定的资源位置和资产
         /// Release and/or unload the given resource location and asset
         /// </summary>
         /// <param name="location">Location to release.</param>
@@ -188,6 +198,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
         void Release(IResourceLocation location, object asset);
 
         /// <summary>
+        /// 提供程序的自定义标志。
         /// Custom flags for the provider.
         /// </summary>
         ProviderBehaviourFlags BehaviourFlags { get; }

@@ -10,6 +10,7 @@ using UnityEngine.Serialization;
 namespace UnityEngine.ResourceManagement.Util
 {
     /// <summary>
+    /// 通过id和字节数组支持构造后初始化的对象的接口。
     /// Interface for objects that support post construction initialization via an id and byte array.
     /// </summary>
     public interface IInitializableObject
@@ -34,6 +35,7 @@ namespace UnityEngine.ResourceManagement.Util
 
 
     /// <summary>
+    /// 用于可以创建对象初始化数据的对象的接口。
     /// Interface for objects that can create object initialization data.
     /// </summary>
     public interface IObjectInitializationDataProvider
@@ -51,11 +53,13 @@ namespace UnityEngine.ResourceManagement.Util
     }
 
     /// <summary>
+    /// 用于管理堆分配的分配策略
     /// Allocation strategy for managing heap allocations
     /// </summary>
     public interface IAllocationStrategy
     {
         /// <summary>
+        /// 创建一个类型为t的新对象。
         /// Create a new object of type t.
         /// </summary>
         /// <param name="type">The type to return.</param>
@@ -89,6 +93,7 @@ namespace UnityEngine.ResourceManagement.Util
     }
 
     /// <summary>
+    /// 使用内部对象池来避免可能触发GC调用的分配的分配策略。
     /// Allocation strategy that uses internal pools of objects to avoid allocations that can trigger GC calls.
     /// </summary>
     public class LRUCacheAllocationStrategy : IAllocationStrategy
@@ -102,10 +107,10 @@ namespace UnityEngine.ResourceManagement.Util
         /// <summary>
         /// Create a new LRUAllocationStrategy objct.
         /// </summary>
-        /// <param name="poolMaxSize">The max size of each pool.</param>
-        /// <param name="poolCapacity">The initial capacity to create each pool list with.</param>
-        /// <param name="poolCacheMaxSize">The max size of the internal pool cache.</param>
-        /// <param name="initialPoolCacheCapacity">The initial number of pools to create.</param>
+        /// <param name="poolMaxSize">The max size of each pool. 每个池的最大大小。</param>
+        /// <param name="poolCapacity">The initial capacity to create each pool list with. 用于创建每个池列表的初始容量。</param>
+        /// <param name="poolCacheMaxSize">The max size of the internal pool cache. 内部池缓存的最大大小。</param>
+        /// <param name="initialPoolCacheCapacity">The initial number of pools to create. 要创建的池的初始数量。</param>
         public LRUCacheAllocationStrategy(int poolMaxSize, int poolCapacity, int poolCacheMaxSize, int initialPoolCacheCapacity)
         {
             m_poolMaxSize = poolMaxSize;
@@ -175,6 +180,7 @@ namespace UnityEngine.ResourceManagement.Util
     }
 
     /// <summary>
+    /// LinkedLists的节点的缓存。这可以用来消除GC分配。
     /// Cache for nodes of LinkedLists.  This can be used to eliminate GC allocations.
     /// </summary>
     /// <typeparam name="T">The type of node.</typeparam>
@@ -605,6 +611,7 @@ namespace UnityEngine.ResourceManagement.Util
         }
 
         /// <summary>
+        /// 检查路径是否应使用WebRequest。对于需要本地加载WebRequest的远程路径和平台，路径应使用WebRequest。
         /// Check if path should use WebRequest.  A path should use WebRequest for remote paths and platforms that require WebRequest to load locally.
         /// </summary>
         /// <param name="path">The path to check.</param>
@@ -617,6 +624,7 @@ namespace UnityEngine.ResourceManagement.Util
         }
 
         /// <summary>
+        /// 检查当前平台是否可以使用url进行加载。
         /// Checks if the current platform can use urls for load loads.
         /// </summary>
         /// <returns>True if the current platform can use urls for local loads, false otherwise.</returns>

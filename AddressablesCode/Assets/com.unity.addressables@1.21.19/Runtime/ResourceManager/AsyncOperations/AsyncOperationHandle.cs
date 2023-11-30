@@ -6,9 +6,10 @@ using UnityEngine;
 namespace UnityEngine.ResourceManagement.AsyncOperations
 {
     /// <summary>
+    /// 内部操作的句柄。这允许引用计数和检查有效引用。
     /// Handle for internal operations.  This allows for reference counting and checking for valid references.
     /// </summary>
-    /// <typeparam name="TObject">The object type of the underlying operation.</typeparam>
+    /// <typeparam name="TObject">基础操作的对象类型。 The object type of the underlying operation.</typeparam>
     public struct AsyncOperationHandle<TObject> : IEnumerator, IEquatable<AsyncOperationHandle<TObject>>
     {
         internal AsyncOperationBase<TObject> m_InternalOp;
@@ -372,6 +373,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         }
 
         /// <summary>
+        /// 获取内部操作的新句柄。这将增加引用计数，因此返回的句柄也必须释放。
         /// Acquire a new handle to the internal operation.  This will increment the reference count, therefore the returned handle must also be released.
         /// </summary>
         /// <returns>A new handle to the operation.  This handle must also be released.</returns>
@@ -382,6 +384,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         }
 
         /// <summary>
+        /// 内部操作的完成事件。如果这是在已完成的操作上分配的，则回调将推迟到当前帧的LateUpdate。
         /// Completion event for the internal operation.  If this is assigned on a completed operation, the callback is deferred until the LateUpdate of the current frame.
         /// </summary>
         public event Action<AsyncOperationHandle> Completed

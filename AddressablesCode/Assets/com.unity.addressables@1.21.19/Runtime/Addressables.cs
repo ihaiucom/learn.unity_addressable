@@ -20,17 +20,21 @@ using UnityEditor;
 namespace UnityEngine.AddressableAssets
 {
     /// <summary>
+    /// 与特定资源定位器有关的数据的容器。主要用于确定内容目录
     /// A container for data pertaining to a specific Resource Locator.  Used mainly to determine if a content catalog
     /// needs to be updated.
     /// </summary>
     public class ResourceLocatorInfo
     {
         /// <summary>
+        /// 已加载到Addressables系统中的资源定位器。
         /// The Resource Locator that has been loaded into the Addressables system.
         /// </summary>
         public IResourceLocator Locator { get; private set; }
 
         /// <summary>
+        /// 此资源定位器的本地哈希。如果远程内容目录被更新并且远程散列改变，
+        /// 该定位器信息用于确定是否需要更新新的内容目录。
         /// The local hash for this Resource Locator.  If a remote content catalog is updated and the remote hash changes,
         /// this locator info is used to determine if a new content catalog needs to be updated.
         /// </summary>
@@ -60,6 +64,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// 资源定位器使用的内容目录的远程哈希位置
         /// The remote hash location of the content catalog used by the resource locator
         /// </summary>
         public IResourceLocation HashLocation
@@ -68,6 +73,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// 检查提供的CatalogLocation是否包含用于检查目录更新的预期依赖项数量
         /// Checks to see if the provided CatalogLocation contains the expected amount of dependencies to check for catalog updates
         /// </summary>
         public bool CanUpdateContent
@@ -84,6 +90,7 @@ namespace UnityEngine.AddressableAssets
     }
 
     /// <summary>
+    /// 封装无效Key错误的异常。
     /// Exception to encapsulate invalid key errors.
     /// </summary>
     public class InvalidKeyException : Exception
@@ -400,6 +407,7 @@ namespace UnityEngine.AddressableAssets
     }
 
     /// <summary>
+    /// 可寻址API的入口点，这提供了一个比直接使用ResourceManager更简单的接口，因为它采用字符串地址类型。
     /// Entry point for Addressable API, this provides a simpler interface than using ResourceManager directly as it assumes string address type.
     /// </summary>
     public static class Addressables
@@ -452,9 +460,11 @@ namespace UnityEngine.AddressableAssets
 #endif
 
         /// <summary>
+        /// 可寻址系统使用的实例提供程序。
         /// The Instance Provider used by the Addressables System.
         /// </summary>
         /// <remarks>
+        /// 检索可寻址资产系统用于创建可寻址游戏对象实例的接口。
         /// Retrieves the interface used by the Addressables Asset System to create instances of Addressable GameObjects.
         /// </remarks>
         /// <returns>The [IInstanceProvider](xref:UnityEngine.ResourceManagement.ResourceProviders.IInstanceProvider) object used to create instances of GameObjects.</returns>
@@ -468,6 +478,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// 用于使用addressables配置值解析字符串
         /// Used to resolve a string using addressables config values
         /// </summary>
         /// <param name="id">The internal id to resolve.</param>
@@ -526,6 +537,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// PlayerPrefs值的名称，用于设置加载可寻址运行时数据文件的路径。
         /// The name of the PlayerPrefs value used to set the path to load the addressables runtime data file.
         /// </summary>
         public const string kAddressablesRuntimeDataPath = "AddressablesRuntimeDataPath";
@@ -533,6 +545,7 @@ namespace UnityEngine.AddressableAssets
         const string k_AddressablesLogConditional = "ADDRESSABLES_LOG_ALL";
 
         /// <summary>
+        /// PlayerPrefs值的名称，用于设置路径以检查需要在运行时显示的生成日志。
         /// The name of the PlayerPrefs value used to set the path to check for build logs that need to be shown in the runtime.
         /// </summary>
         public const string kAddressablesRuntimeBuildLogPath = "AddressablesRuntimeBuildLog";
@@ -566,6 +579,7 @@ namespace UnityEngine.AddressableAssets
         public static string BuildReportPath = "Library/com.unity.addressables/BuildReports/";
 
         /// <summary>
+        /// "Library/com.unity.addressables/aa/Windows"
         /// The build path used by the Addressables system for its initialization data.
         /// </summary>
         /// <remarks>
@@ -588,6 +602,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// "Assets/StreamingAssets/aa"
         /// The path that addressables player data gets copied to during a player build.
         /// </summary>
         /// <remarks>
@@ -607,6 +622,8 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// Editor:"Library/com.unity.addressables/aa/Windows"
+        /// Runtime: "Assets/StreamingAssets/aa"
         /// The path used by the Addressables system to load initialization data.
         /// </summary>
         /// /// <remarks>
@@ -918,6 +935,7 @@ namespace UnityEngine.AddressableAssets
         }
 
         /// <summary>
+        /// 初始化操作。如果您需要在Addressables准备好后运行代码，您可以用它注册回调。此操作完成之前发出的任何请求都将自动返回其结果。
         /// Initialization operation.  You can register a callback with this if you need to run code after Addressables is ready.  Any requests made before this operaton completes will automatically cahin to its result.
         /// </summary>
         /// <seealso cref="Addressables.InitializeAsync"/>

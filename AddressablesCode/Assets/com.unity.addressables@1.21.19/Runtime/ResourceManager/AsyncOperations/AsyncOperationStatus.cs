@@ -11,6 +11,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
     public enum AsyncOperationStatus
     {
         /// <summary>
+        /// 用于指示操作仍在进行中。
         /// Use to indicate that the operation is still in progress.
         /// </summary>
         None,

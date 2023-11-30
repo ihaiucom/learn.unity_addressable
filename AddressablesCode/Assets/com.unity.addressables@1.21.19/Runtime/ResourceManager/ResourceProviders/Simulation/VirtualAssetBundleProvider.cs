@@ -29,6 +29,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders.Simulation
         }
 
         /// <summary>
+        /// 构造一个新的VirtualAssetBundleProvider对象；
         /// Construct a new VirtualAssetBundleProvider object;
         /// <param name="data">Contains information on virtual bundle layout</param>
         /// </summary>
@@ -47,6 +48,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders.Simulation
         }
 
         /// <summary>
+        /// 从序列化数据构造时传递初始化数据
         /// Initilization data is passed when when constructed from serialized data
         /// </summary>
         /// <param name="id">The provider id</param>

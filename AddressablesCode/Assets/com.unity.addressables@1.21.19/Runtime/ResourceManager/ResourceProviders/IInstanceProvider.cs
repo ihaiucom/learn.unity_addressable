@@ -114,6 +114,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
     }
 
     /// <summary>
+    /// 提供对象实例的接口。这在ResourceManager中使用。实例化*个调用。
     /// Interface that provides instances of objects.  This is used in ResourceManager.Instantiate* calls.
     /// </summary>
     public interface IInstanceProvider

@@ -68,14 +68,14 @@ namespace UnityEngine.AddressableAssets.ResourceLocators
     }
 
     /// <summary>
-    /// Container for ContentCatalogEntries.
+    /// Container for ContentCatalogEntries. ContentCatalogEntries的容器。
     /// </summary>
     [Serializable]
     public class ContentCatalogData
     {
-        //used to verify that this is a valid catalog data file
+        //used to verify that this is a valid catalog data file 用于验证这是一个有效的目录数据文件
         static int kMagic = nameof(ContentCatalogData).GetHashCode();
-        //used to check the version of the data in case the format needs to change in the future
+        //used to check the version of the data in case the format needs to change in the future 用于检查数据的版本，以防将来需要更改格式
         const int kVersion = 1;
 
         [NonSerialized]

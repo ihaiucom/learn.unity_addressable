@@ -86,7 +86,7 @@ namespace UnityEngine.AddressableAssets.Initialization
         List<ObjectInitializationData> m_ExtraInitializationData = new List<ObjectInitializationData>();
 
         /// <summary>
-        /// The list of initialization data.  These objects will get deserialized and initialized during the Addressables initialization process.  This happens after resource providers have been set up but before any catalogs are loaded.
+        /// The list of initialization data.  These objects will get deserialized and initialized during the Addressables initialization process.  This happens after resource providers have been set up but before any catalogs are loaded.初始化数据的列表。这些对象将在Addressables初始化过程中进行反序列化和初始化。这种情况发生在设置资源提供程序之后，但在加载任何目录之前。
         /// </summary>
         public List<ObjectInitializationData> InitializationObjects
         {
@@ -145,7 +145,7 @@ namespace UnityEngine.AddressableAssets.Initialization
         int m_maxConcurrentWebRequests = 500;
 
         /// <summary>
-        /// The maximum number of concurrent web requests.  This value will be clamped from 1 to 1024.
+        /// The maximum number of concurrent web requests.  This value will be clamped from 1 to 1024. 并发web请求的最大数目。该值将从1到1024。
         /// </summary>
         public int MaxConcurrentWebRequests
         {

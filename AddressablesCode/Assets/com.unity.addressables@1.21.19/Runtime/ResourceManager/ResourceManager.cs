@@ -111,6 +111,7 @@ namespace UnityEngine.ResourceManagement
         }
 
         /// <summary>
+        /// 全局异常处理程序。无论何时执行IAsyncOperation，都会调用此函数。OperationException设置为非null值。
         /// Global exception handler.  This will be called whenever an IAsyncOperation.OperationException is set to a non-null value.
         /// </summary>
         /// <example>
@@ -494,7 +495,7 @@ namespace UnityEngine.ResourceManagement
         }
 
         /// <summary>
-        /// Creates the appropriate cache key for a given location + provider.  AssetBundleProviders need to use a different
+        /// Creates the appropriate cache key for a given location + provider.  AssetBundleProviders need to use a different 为给定位置+提供程序创建适当的缓存密钥。AssetBundleProviders需要使用不同的
         /// cache key than regular locations.
         /// </summary>
         /// <param name="provider">The ResourceProvider for the given location</param>

@@ -116,6 +116,7 @@ namespace UnityEngine.AddressableAssets.Initialization
         }
 
         /// <summary>
+        /// 对字符串中由“｛”和“｝”分隔的所有标记求值，并使用EvaluateProperty方法对其求值。
         /// Evaluates all tokens deliminated by '{' and '}' in a string and evaluates them with the EvaluateProperty method.
         /// </summary>
         /// <param name="input">The input string.</param>

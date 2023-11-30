@@ -19,7 +19,9 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         Type ResultType { get; }
         int Version { get; }
         string DebugName { get; }
+        // 递减引用计数
         void DecrementReferenceCount();
+        // 增量引用计数
         void IncrementReferenceCount();
         int ReferenceCount { get; }
         float PercentComplete { get; }
@@ -45,6 +47,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
     }
 
     /// <summary>
+    /// 实现的AsyncOperations的基类，实现所需的接口并合并冗余代码
     /// base class for implemented AsyncOperations, implements the needed interfaces and consolidates redundant code
     /// </summary>
     /// <typeparam name="TObject">The type of the operation.</typeparam>
@@ -82,6 +85,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         }
 
         /// <summary>
+        /// 自定义操作应重写此方法，以提供它所依赖的AsyncOperationHandles的列表。
         /// A custom operation should override this method to provide a list of AsyncOperationHandles that it depends on.
         /// </summary>
         /// <param name="dependencies">The list that should be populated with dependent AsyncOperationHandles.</param>
@@ -121,6 +125,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         Action<AsyncOperationHandle> m_dependencyCompleteAction;
 
         /// <summary>
+        /// True，如果操作已执行，否则为false
         /// True, If the operation has been executed, else false
         /// </summary>
         protected internal bool HasExecuted = false;
@@ -137,6 +142,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         }
 
         /// <summary>
+        /// 如果当前操作已开始但尚未完成，则为True。否则为False。
         /// True if the current op has begun but hasn't yet reached completion.  False otherwise.
         /// </summary>
         public bool IsRunning { get; internal set; }
@@ -166,6 +172,7 @@ namespace UnityEngine.ResourceManagement.AsyncOperations
         }
 
         /// <summary>
+        /// 同步完成异步操作。
         /// Synchronously complete the async operation.
         /// </summary>
         public void WaitForCompletion()
